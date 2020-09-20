@@ -8,7 +8,6 @@ a = int(a)
 b = int(b)
 e = int(e)
 
-
 n = e * math.pi / 180
 c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(n))
 c = print("Спасибо, ты мне очень помог, длина третьей стороны:", c)
