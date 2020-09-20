@@ -7,10 +7,8 @@ e = input('А какой угол в данном треугольнике, вы
 a = int(a)
 b = int(b)
 e = int(e)
-n = 0
-n = float(n)
+
 
 n = e * math.pi / 180
-c = math.cos(n)
 c = math.sqrt(a**2 + b**2 - 2*a*b*math.cos(n))
 c = print("Спасибо, ты мне очень помог, длина третьей стороны:", c)
